@@ -1,0 +1,137 @@
+.container{
+	background-color:#C0C0C0;
+}
+
+nav li
+{
+	color: black;
+	display:inline;
+	margin-top:20px;
+}
+header
+{
+	background-color: #808000;
+	min-width: 960px;
+	position: fixed;
+	
+}
+
+header i{
+	color:white;
+}
+.fa-arrow-down{
+	position: absolute;
+	top:60;
+	left:850;
+}
+
+.fa-arrow-up{
+	position: absolute;
+	top:60;
+	left:880;
+}
+
+.fa-arrow-right{
+	position: absolute;
+	top:60;
+	left:910;
+}
+
+.fa-arrow-left{
+	position: absolute;
+	top:60;
+	left:940;
+}
+
+header h2
+{
+	font-family: 'Bungee Inline', cursive;
+}
+.main img
+{
+	width:960px;
+	height: 600px;
+	margin-left: -4px; 
+	margin-right: 5px;
+}
+
+.image{
+	min-width: -160px;
+
+}
+.main{
+	padding-top: 80px;
+}
+
+.main h2{
+	position: absolute;
+	top:550px;
+	left:900px;
+
+}
+
+ul a
+{
+	text-decoration: none;
+}
+
+.container ul a:hover
+{
+	color: white;
+}
+
+
+
+.container nav a {   
+	border: hidden;
+	color: dark-grey;
+
+}
+.image1
+{
+	width:310px;
+	height:100px;
+}
+.image2
+{
+	width:630px;
+	height:200px;
+}
+
+.read{
+	float: right;
+}
+.read:before
+{
+	content:'(';
+}
+.read:after
+{
+	content:')';
+}
+
+.main4
+{
+	background-color:#808000;
+}
+
+
+.main4 img{
+	width: 50;
+	height: 40;
+}
+.main4 a{
+	text-decoration: none;
+	font-family: cursive;
+	color:white;
+}
+
+
+.main5{
+	width: 310px;
+	height:20px;
+}
+s
+
+
+	
