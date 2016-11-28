@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Bootstrap Project</title>
+	<meta name="description" content="">
+	
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+	
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>	
+</head>
+<body>
+	<div class="container">
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button><!--end button -->
+
+				<a class ="navbar-brand" href="#" id="main"><img src="" alt="Raanaa!"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse pull-right">
+					<ul class="nav navbar-nav ">
+						<li class="active">
+							<a href="more_info.html">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Varieties<strong class="caret"></strong></a>
+							<ul class="dropdown-menu" >
+								<li>
+									<a href="#">Bridal Mehndi</a>
+								</li>
+								<li>
+									<a href="#">Sangeet Parties</a>
+								</li>
+								<li>
+									<a href="#">Engagement</a>
+								</li>
+								<li class="divider">
+									<li class="dropdown header"><span>More..</span>
+									</li>
+									<li>
+										<a href="#">Baby/Bridal Showers</a>
+									</li>
+									<li>
+										<a href="#">Birthday Parties</a>
+									</li>
+								</ul><!--end dropdowm menu-->
+							</li><!--end dropdown -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info<strong class="caret"></strong></a>
+								<ul class="dropdown-menu" >
+									<li>
+										<a href="more_info.html">About Henna </a>
+									</li>
+									<li>
+										<a href="my_publications.html">My publications</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li><!--end dropdown -->		
+						</ul><!--end nav navbar-nav-->
+						<form class="navbar-form pull-left">
+							<input type="text" name="form-control" placeholder="Search for Design" id="searchinput">
+							<button type="Submit" class="btn btn-info"> <span class="glyphicon glyphicon-search"></span></button>
+						</form><!--end navbar-form pull-left-->
+						<ul class="nav navbar-nav navbar pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">User<strong class="caret"></strong></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-wrench"> Update</span></a>
+									</li>
+									<li><a href="#"><span class="glyphicon glyphicon-refresh">   Profile</a></span>
+									</li>
+									<li><a href="#"><span class="glyphicon glyphicon-gift">   Invite</a></span>
+									</li>
+									<li class="divider"></li>
+									<li><a href="signout.html"><span class="glyphicon glyphicon-off">  Signout</a></span></li>
+								</ul><!--end navbar-form pull-left-->
+							</li><!--end dropdown-->
+						</ul><!--nav navbar-nav navbar pull-right-->
+
+					</div><!--end nav-collapse collapse navbar-responsive-collapse-->
+				</div> <!--end container-->
+			</div><!--end navbar navbar-fixed-top-->
+			<div class="carousel slide" id="myCarousel">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to=0 data-target=#myCarousel></li>
+					<li  data-slide-to=1 data-target=#myCarousel></li>
+					<li  data-slide-to=2 data-target=#myCarousel></li>			
+				</ol><!--end carousel-indicators-->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Bridal Mehandi</h4>
+							<p>Committed to making your special occasion a memorable one</p>
+						</div><!--end carousel-caption-->
+					</div><!--end item active-->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Traditional mehandi</h4>
+							<p>Henna with Style and Passion</p>
+						</div><!--end carousel-caption-->
+					</div><!--end item active-->
+					
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Baby-Shower Mehndi</h4>
+							<p>Make a happiness with our Henna</p>
+						</div><!--end carousel-caption-->
+					</div><!--end item active-->
+
+
+				</div><!--end carousel-inner-->
+
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			</div><!--end carousel-slide-->
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert" id="successAlert">&times;</button>
+						<h4>Success</h4>
+						<p>Thankyou for One day Subscription</p>
+					</div><!--end alert-->
+
+
+					<div class="well well-small visible-sm">
+						<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Face Any Issue ! Call us</a>
+					</div><!--end carousel-well-->
+					<div class="well">
+						<div class="page-header">
+							<h1>Subscribe for 1day FREE<small>valid for 24hrs only</small></h1>
+						</div><!--end page-header-->
+						<p class="lead">Only for New User</p>
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Subscribe</a>
+						<a href="#myModal" role="button" class="btn btn-large btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Register Here!</a>
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+
+										<h4 class="modal-title">A Modal Window</h4>
+									</div><!-- end modal-header -->
+									<div class="modal-body">
+										<h1>Registration Form</h1>
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputName">Name</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputName" placeholder="Name" type="text">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputMessage">Mobile Number</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputNumber" placeholder="Mobile No" >
+													<button class="btn btn-success pull-right" type="submit">Submit</button>
+													<button class="btn btn-default pull-left" data-dismiss="modal" type="button">Close</button>
+												</div>
+											</div>
+										</form>
+									</div><!-- end modal-body -->
+								</div><!-- end modal-content -->
+							</div><!-- end modal-dialog -->
+						</div><!-- end myModal -->	
+					</div><!--end well-->
+				</div><!--end col-12-->
+			</div><!--end row -->		
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<a id="link">
+						<h2>More Details</h2></a>
+						<p class="leas">For More details about designs</p>
+					</div><!--end col-12 -->
+				</div>	<!--end row-->
+				<div class="row" id="features">
+					<div class="col-sm-4 feature">	
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Bridal Mehandi</h3>	
+							</div>	<!--end panel heading-->
+							<img src="images/bridal.jpg" class="img-circle">
+							<p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic. </p>
+							<a href="bridal.html" target="_blank" class="btn btn-warning btn-block">Gallery</a>
+						</div><!--end panel-heading-->
+					</div><!--end col-4-->
+					<div class="col-sm-4 feature">	
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Arabic Mehandi</h3>	
+							</div>	
+							<img src="images/arabic.jpg" class="img-circle">
+							<p>Whether it is mehndi or sangeet night, kick off the wedding festivities with mehndi fun. The pricing is based on an hourly rate and not on a per hand rate.</p>
+							<a href="arabic.html" target="_blank" class="btn btn-warning btn-block">Gallery</a></div><!--end panel-heading-->
+						</div><!--end col-4-->
+						<div class="col-sm-4 feature">	
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Indo-Arabic Mehandi</h3>	
+								</div>	
+								<img src="images/indo.jpg" class="img-circle">
+								<p>Adorn your beautiful hands for the first wedding festivity with some mehndi that will makes you happy and feel fresh.</p>
+								<a href="indoarabic.html" target="_blank" class="btn btn-warning btn-block">Gallery</a>
+							</div><!--end panel-heading-->
+						</div><!--end col-4-->
+					</div><!--end row-->
+
+					<div class="row" id="features">
+						<div class="col-sm-4 feature">	
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Engagement Mehandi</h3>	
+								</div>	<!--end panel heading-->
+								<img src="images/engage.jpg" class="img-circle">
+								<p>Whether its belly mehndi or mehndi for your guests at your shower, its sure to be a hit. </p>
+								<a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=bridal+mehandi+designs&tbm=vid" target="_blank" class="btn btn-warning btn-block">Watch Videos</a>
+							</div><!--end panel-heading-->
+						</div><!--end col-4-->
+						<div class="col-sm-4 feature">	
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Baby/Bridal shower Mehandi</h3>	
+								</div>	
+								<img src="images/babyshower.jpg" class="img-circle">
+								<p>Who says mehndi is just for weddings, bring the joy of color to any event.</p>
+								<a href="https://www.google.co.in/search?q=arabic+mehandi+designs&ie=utf-8&oe=utf-8&gws_rd=cr&ei=W5U6WOPXNoqJvQT3pJ2oAQ#q=arabic+mehandi+designs&tbm=vid" target="_blank" class="btn btn-warning btn-block">Watch Videos</a></div><!--end panel-heading-->
+							</div><!--end col-4-->
+							<div class="col-sm-4 feature">	
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title">School/corporate Events Mehandi</h3>	
+									</div>	
+									<img src="images/school.jpg" class="img-circle">
+									<p>Mehndi is always a super hit at all school and corporate functions.</p>
+									<a href="https://www.google.co.in/search?q=arabic+mehandi+designs&ie=utf-8&oe=utf-8&gws_rd=cr&ei=W5U6WOPXNoqJvQT3pJ2oAQ#tbm=vid&q=Indo+arabic+mehandi+designs" target="_blank" class="btn btn-warning btn-block">Watch videos</a>
+								</div><!--end panel-heading-->
+							</div><!--end col-4-->
+						</div><!--end row-->				
+						<footer>
+							<div class="container">
+								<div class="row">
+									<h2>         </h2>
+									<div class="col-sm-3">
+										<a href="https://www.flickr.com/photos/mehndidesigner/"><span class="glyphicon glyphicon-iphone">On Through flickr</span>
+										</a>
+									</div><!--end col-sm-3-->
+									<div class="col-sm-3">
+										<a href="#"><span class="glyphicon glyphicon-tv">Help and Contact</span></a>
+									</div><!--end col-sm-3-->
+									<div class="col-sm-3">
+										<a href="#"><span class="glyphicon glyphicon-message-in">Get New Arrival Designs</span></a>
+									</div><!--end col-sm-3-->
+									<div class="col-sm-3">
+										<a href="#"><span class="glyphicon glyphicon-group">About Raana Henna Website </span></a>
+									</div><!--end col-sm-3-->
+								</div><!--end row-->
+								<hr>
+								<div class="row">
+									<div class="col-12">
+										<div class="col-sm-2"><h6>Copyrights &copy; NANDYRANJITH</h6></div>
+										<div class="col-sm-4">
+											<h6>About us</h6>
+											<p>Passion for the henna is the key of our success. contact us for bridal henna consultation and early booking !!</p>
+										</div><!--end col-sm-4-->
+										<div class="col-sm-2">
+											<h6>Pages</h6>
+											<ul class="unstyle">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="#">Serivce</a></li>
+												<li><a href="#">Contact</a></li>
+												<li><a href="#">Links</a></li>
+											</ul><!--end unstyle-->
+										</div><!--end col-sm-2-->
+										<div class="col-sm-2">
+											<h6>Know Updates</h6>
+											<ul class="unstyle">
+												<li><a href="http:www.facebook.com">Facebook</a></li>
+												<li><a href="http:www.twitter.com">Twitter</a></li>
+												<li><a href="http:www.youtube.com">Youtube</a></li>
+												<li><a href="http:www.googleplus.com">Google+</a></li>
+											</ul><!--end unstyle-->
+										</div><!--end col-sm-2-->
+									</div><!--end rmodal-header-->
+								</div><!-- end row -->
+							</div><!-- end container -->
+						</footer>
+
+						<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+
+
+						<!-- All Javascript at the bottom of the page for faster page loading -->
+
+						<!-- First try for the online version of jQuery-->
+						<script src="http://code.jquery.com/jquery.js"></script>
+
+						<!-- If no online access, fallback to our hardcoded version of jQuery -->
+						<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+						<!-- Bootstrap JS -->
+						<script src="bootstrap/js/bootstrap.min.js"></script>
+
+						<!-- Custom JS -->
+						<script src="includes/js/script.js"></script>
+
+					</body>
+					</html>
+
